@@ -1,0 +1,188 @@
+
+
+<!-- This puts an emoji or icon in your browser tab! -->
+<link rel="icon" href="https://fav.farm/🔥">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>erin0nchain| Portfolio</title>
+    
+<style>
+  /* 1. This targets the background of the whole screen */
+  body {
+    color: white;
+    background-color: #000428;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* 2. This is the white box container */
+  .profile-card {
+    background-color: #FFE95C;
+    color: #333;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  }
+
+  /* 3. This makes your image a circle */
+  img {
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .top-nav {
+      position: fixed;        /* MAGIC: This makes it stay at the top! */
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      padding: 15px 0;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 1000;          /* Ensures it stays on top of everything */
+      box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+  }
+  
+  .status-dot {
+      background: #28a745;    /* Green color */
+      border: none;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      animation: blink 1.5s infinite; /* Bonus: Making it blink! */
+  }
+  
+  @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+  }
+
+  /* 4. This makes your links look like buttons */
+  a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 50px;/* makes them rounded and sleek */
+    margin: 15px 0;
+    width: 80%;
+    font weight: bold;
+    transition: 0.3s; /* This makes the hover smooth! */
+  }
+/* 1. Styling the Stats Bar */
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat strong {
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.stat span {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #888;
+}
+
+/* 2. THE MOBILE MAGIC (Media Query) */
+@media (max-width: 480px) {
+    .profile-card {
+        width: 95%;      /* Takes up more space on small phones */
+        padding: 20px;   /* Shrinks padding so text doesn't choke */
+    }
+    
+    h1 { font-size: 1.5rem; } /* Makes name fit on one line */
+    
+}
+
+  a:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);/* makes it pop slightly */
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+  }
+  h1 { margin-bottom: 5px; }
+  h2 { color: #007bff; font-size: 1.2rem; margin-top: 20px; }
+  p{ line height: 1.6; }
+  hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+</style>
+<header class="top-nav">
+  <span>Pamilerin's Portfolio 2026</span>
+  <button class="status-dot">Online</button>
+</header>
+<body>
+  <!-- START THE BOX HERE -->
+  <div class="profile-card">
+    
+    <!-- 1. Profile Picture -->
+    <img src="u.jpeg" alt="My Profile Picture">
+
+    <!-- 2. Main Heading -->
+    <h1>erin0nchain</h1>
+    <p>Aspiring Front-End Developer | Learning with @feranmi</p>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>
+     I love transforming code into creativity, perfecting Front-End development, and shaping the next generation of developers.
+    </p>
+
+    <hr>
+<div class="stats-container">
+  <div class="stat">
+    <strong>3</strong>
+    <span>Days</span>
+  </div>
+  <div class="stat">
+    <strong>12</strong>
+    <span>Projects</span>
+  </div>
+  <div class="stat">
+    <strong>100%</strong>
+    <span>Focus</span>
+  </div>
+</div>
+    <!-- 3. Skills Section -->
+    <h2>My Tech Skills</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li>✅ HTML5 Semantics</li>
+      <li>✅ Terminal Commands (Termux)</li>
+      <li>✅ Folder Management</li>
+    </ul>
+
+    <hr>
+
+    <!-- 4. Contact Section -->
+    <h2>Connect With Me</h2>
+    <a href="mailto:fateyepamilerin3@gmail.com">📧 Email Me</a>
+    <a href="https://github.com/ogba66" target="_blank">💻 GitHub Profile</a>
+    <a href="https://x.com/erin0nchain">🐦 Follow @erin0nchain</a>
+    <a href="https://wa.me/2347049412584">📱 WhatsApp Me</a>
+
+  </div> <!-- CLOSE THE BOX HERE -->
+</body>
